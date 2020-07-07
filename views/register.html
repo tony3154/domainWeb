@@ -1,0 +1,10 @@
+<body>
+    <form  class="register_form" name = "register" method="post" action="/register">
+        <h1 class="register_title">用户注册</h1>
+        <input type="text" placeholder="用户名" class="input_txt" name="userName">
+        <input type="password" placeholder="密码" class="input_txt" name = "passWord">
+        <input type="submit" value="注 册" class="input_sub">
+        <span>{{.errmsg}}</span>
+    </form>
+ 
+</body>

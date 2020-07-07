@@ -1,0 +1,11 @@
+<body>
+    <form  class="login_form"  name = "login" action="/login" method="post">
+        <h1 class="login_title">用户登录</h1>
+        <input type="text"  class="input_txt" name = "userName" value="{{.userName}}">
+        <input type="password" name = "passWord"  class="input_txt">
+        <input type="submit" value="登 录" class="input_sub">
+        <span>{{.errmsg}}</span>
+    </form>
+</body>
+
+
